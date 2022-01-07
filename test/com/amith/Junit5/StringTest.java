@@ -52,7 +52,7 @@ class StringTest {
 	
 	@Test
 	@Disabled//@Ignored
-	void length_basic() {
+	void length_base() {
 		int actualLength="ABCD".length();
 		int expectedLength=4;
 		//Assert length==4
